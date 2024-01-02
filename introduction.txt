@@ -1,0 +1,16 @@
+this program is for writting secreat code 
+
+to decode the code send this program to victium
+
+string = input("Enter the code >> ")
+values = string.split(" ")
+decoad = "" 
+for extract in values:
+    decoad += f"{chr(int(extract))}"
+print('Decoading....')
+time.sleep(3)
+if "i love you" in decoad.lower():
+    os.system('color D')
+    print(f">> {decoad}")
+else:
+    print(f">> {decoad}")
